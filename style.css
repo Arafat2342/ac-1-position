@@ -1,0 +1,28 @@
+body{
+    background-color:lightgreen;
+}
+.fixed{
+position: fixed;
+border: 2px dashed aqua;
+left: 1000px;
+top: 10px;
+}
+.sticky{
+    position:sticky;
+    border: 2px solid gold;
+    margin: 40px;  
+    width: 260px;
+    border-radius: 7px;
+}
+.static{
+    position: static;
+    left: 20px;
+    border: 2px solid blue;
+    width: 260px;
+}
+.absilute{
+    position: absolute;
+    left: 100px;
+    border: 2px solid snow;
+    margin: 100px;
+}
